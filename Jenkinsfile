@@ -22,6 +22,8 @@ pipeline {
                 echo 'Deploying...'
                 bat 'deploy.bat'
                 echo 'Deployed'
+            }
+        }
     }
 }
 
