@@ -19,7 +19,6 @@ pipeline {
             steps {
                 echo 'Deploying...'
                 echo 'Deployed'
-                echo date
             }
         }
     }
